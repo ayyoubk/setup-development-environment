@@ -2,7 +2,7 @@
 
 ### install git:
 
-run the following command to install git:
+Run the following command to install git:
 
 ```bash
 brew install git || brew upgrade git
@@ -11,7 +11,7 @@ brew install git || brew upgrade git
 ### git & github configuration:
 
 - install GitHub CLI:
-  - run in terminal:
+  - Run in terminal:
     ```bash
     brew install gh
     ```
@@ -28,7 +28,7 @@ brew install git || brew upgrade git
 
 ### git configuration:
 
-note: replace `YOUR NAME` and `YOUR EMAIL` with the name and email for your GitHub account.
+**_Note_**: replace `YOUR NAME` and `YOUR EMAIL` with the name and email for your GitHub account.
 
 ```bash
 git config --global user.name 'YOUR NAME'

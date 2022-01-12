@@ -6,17 +6,17 @@ This guide for setting up your development environment for Linux/Ubuntu users
 
 - open terminal and run the following command:
 
-```bash
-sudo apt-get update && sudo apt-get upgrade -y
-```
+  ```bash
+  sudo apt-get update && sudo apt-get upgrade -y
+  ```
 
-```bash
-sudo apt autoremove -y
-```
+  ```bash
+  sudo apt autoremove -y
+  ```
 
-```bash
-sudo apt-get build-essential -y
-```
+  ```bash
+  sudo apt-get build-essential -y
+  ```
 
 ## Homebrew Installation
 
@@ -28,14 +28,14 @@ The Missing Package Manager for macOS (or Linux)
 
 - to check brew Installation state use :
 
-```bash
-brew doctor
-```
+  ```bash
+  brew doctor
+  ```
 
 - to install important packages
 
-```bash
-brew install wget
-```
+  ```bash
+  brew install wget
+  ```
 
 ### [Next ❯](./git-installation.md)

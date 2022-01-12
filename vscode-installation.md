@@ -6,11 +6,14 @@ steps fot installing vscode:
 
 - download the vscode from this link: [vscode](https://code.visualstudio.com/Download)
 
-![vscode-download](./assest/vscode-download1.png)
+<!-- ![vscode-download](./assest/vscode-download1.png) -->
+
+<img src="./assest/vscode-download1.png" alt="vscode-download1" width="450"/>
 
 - after that open the file and click on the install button.
 
-![vscode-download](./assest/vscode-installar.png)
+<!-- ![vscode-download](./assest/vscode-installar.png) -->
+<img src="./assest/vscode-installar.png" alt="vscode-installar" width="450"/>
 
 - restart your terminal and type this command:
 
