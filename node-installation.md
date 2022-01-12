@@ -10,10 +10,31 @@ Run the following command to install NVM:
 brew install nvm
 ```
 
-- it will take a while to install NVM so be patient.
-- after completion, follow the instructions in the resulting output.
+- It will take a while to install NVM so be patient.
+- After completion, make sure you have a hidden folder called `.nvm` in your home directory, run `mkdir ~/.nvm`.
+- Follow the instructions in the resulting output or use this command:
+
+  ```bash
+  cat >> ~/.profile <<x
+
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && \. "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" # This loads nvm
+
+  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+  x
+  ```
+
+  ```bash
+  cat >> ~/.bashrc <<x
+
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && \. "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" # This loads nvm
+
+  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+  x
+  ```
+
 - when your installation is complete, you should restart your terminal.
-- make sure you have a hidden folder called `.nvm` in your home directory, run `mkdir ~/.nvm`.
 
 ### Install Node
 
