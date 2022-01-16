@@ -1,6 +1,6 @@
 # setup-development-environment
 
-This guide for setting up your development environment for Linux/Ubuntu users
+This guide for setting up your development environment for Linux/Ubuntu users.
 
 ## Installing and Updating the Linux App Manager
 
