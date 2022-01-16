@@ -32,10 +32,10 @@ The Missing Package Manager for macOS (or Linux)
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
 
-  - After completion, follow the instructions from the resulting output or run tjis commands:
+  - After completion, follow the instructions from the resulting output or run this commands:
 
     ```bash
-    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/student/.profile
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/$(whoami)/.profile
     ```
 
     ```bash
